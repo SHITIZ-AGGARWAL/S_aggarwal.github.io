@@ -18,6 +18,22 @@
             background-position: center;
         }
         
+        .link1 {
+            color: aliceblue;
+        }
+        
+        .link1:hover {
+            color: black;
+        }
+        
+        .link {
+            color: black
+        }
+        
+        .link:hover {
+            color: white
+        }
+        
         .caption {
             position: absolute;
             left: 0;
@@ -53,6 +69,11 @@
             min-height: 800px;
         }
         
+        .disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
         .caption span.border {
             background-color: #111;
             color: #fff;
@@ -80,10 +101,15 @@
                 <li><a href="sketches.html " style="font-weight: bolder;text-shadow: 1px 1px white;">SKETCHES</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right ">
-                <li><a href="https://www.youtube.com/channel/UC_jzeEDSbzDSfwVEdCxLUDw "><span class=" "></span><i class="fa fa-youtube-play " style="font-size:20px;color: white;"  ></i></a></li>
-                <li><a href="https://www.linkedin.com/in/shitiz-aggarwal-920b411a6 "><span class=" "></span> <i class="fa fa-linkedin-square " style="font-size:20px ;color: white;"></i></a></li>
-                <li><a href="https://www.facebook.com/shitizagg/ "><span class=" "></span> <i class="fa fa-facebook-square " style="font-size:20px ;color: white;"></i></a></li>
-                <li><a href="https://www.instagram.com/shitizaggarwal__ "><span class=" "></span> <i class="fa fa-instagram " style="font-size:20px;color: white; "></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC_jzeEDSbzDSfwVEdCxLUDw "><i class="fa fa-youtube-play " style="font-size:20px;color: white;"  ></i></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/shitiz-aggarwal-920b411a6 "> <i class="fa fa-linkedin-square " style="font-size:20px ;color: white;"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/shitizagg/ "> <i class="fa fa-facebook-square " style="font-size:20px ;color: white;"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/shitizaggarwal__ "><i class="fa fa-instagram " style="font-size:20px; color: white;"></i></a></li>
+
             </ul>
         </div>
     </nav>
@@ -108,16 +134,17 @@
         <p style="text-align:START;font-size: 90PX;font-weight: bold; ">AGGARWAL</p>
         <p style="text-align:START;font-size: 20PX;font-weight: bold; ">A COMPUTER SCIENCE ENTHUSIAST</p>
         <div>
-            <button style="background-color: honeydew;border-radius: 80mm;background-color: white;font-weight: bold;font-size: 20px;color:#20213d;">RESUME</BUTTON>
-            <button style="background-color: honeydew;border-radius: 80mm;background-color: white;font-weight: bold;font-size: 19px;color:#20213d;">CONTACT ME</BUTTON>
+            <button class="disabled" style="background-color: honeydew;border-radius: 80mm;background-color: white;font-weight: bold;font-size: 20px;color:#20213d;">RESUME</BUTTON>
+
+            <button onclick="window.location.href='contact.html'" style="background-color: honeydew;border-radius: 80mm;background-color: white;font-weight: bold;font-size: 19px;color:#20213d;">CONTACT ME</BUTTON>
         </div>
         <br>
         <br>
         <p style="text-align:START;font-size: 20PX;font-weight: bold; ">FIND ME HERE</p>
-        <a href="https://www.linkedin.com/in/shitiz-aggarwal-920b411a6 "><span class=" "></span> <i class="fa fa-git " style="font-size:30px ;color: white;padding-right: 20px;"></i></a>
-        <a href="https://www.linkedin.com/in/shitiz-aggarwal-920b411a6 "><span class=" "></span> <i class="fa fa-linkedin-square " style="font-size:30px ;color: white;padding-right: 20px;"></i></a>
-        <a href="https://www.facebook.com/shitizagg/ "><span class=" "></span> <i class="fa fa-facebook-square " style="font-size:30px ;color: white;padding-right: 20px;"></i></a>
-        <a href="https://www.instagram.com/shitizaggarwal__ "><span class=" "></span> <i class="fa fa-instagram " style="font-size:30px;color: white;padding-right: 20px; "></i></a>
+        <a class="link" href="https://github.com/SHITIZ-AGGARWAL "><span class=" "></span> <i class="fa fa-git " style="font-size:30px ;;padding-right: 20px;"></i></a>
+        <a class="link" href="https://www.linkedin.com/in/shitiz-aggarwal-920b411a6 "><span class=" "></span> <i class="fa fa-linkedin-square " style="font-size:30px ;;padding-right: 20px;"></i></a>
+        <a class="link" href="https://www.facebook.com/shitizagg/ "><span class=" "></span> <i class="fa fa-facebook-square " style="font-size:30px ;;padding-right: 20px;"></i></a>
+        <a class="link" href="https://www.instagram.com/shitizaggarwal__ "><span class=" "></span> <i class="fa fa-instagram " style="font-size:30px;;padding-right: 20px; "></i></a>
 
 
         <h4 style="font-family: 'Times New Roman', Times, serif;font-style:oblique;padding-right: 900px; "> </h4>
@@ -179,6 +206,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
+    <div style="padding: 20px;background-color: black;">
+        <footer style="font-weight: bolder;color: cornsilk;"> <small>&copy; Copyright 2020,SHITIZ AGGARWAL </small> </footer>
+        <footer style="font-weight: bolder;color: cornsilk;"> <small> template will be available soon on my github  </small> </footer>
+
+    </div>
 
 
 </body>
