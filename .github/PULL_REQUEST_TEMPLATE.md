@@ -6,13 +6,11 @@
 
 ## Related Issue
 
-<!-- Use Fixes if this issue is related to a bug, else use closes to closes the issue -->
-
-Fixes #[issue_number] <!-- eg: Fixes #3 -->
+closes #[issue_number] <!--mention the issue this PR is related to eg: Fixes #3 -->
 
 ## Type of Change:
 
-<!--- **Delete irrelevant options.** --->
+<!--- use x and remove the blank like this - [x] to tick the box --->
 
 - [ ] Ui/Ux
 - [ ] Coding
